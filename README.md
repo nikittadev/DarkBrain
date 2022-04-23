@@ -11,5 +11,10 @@ Feel absolutely free to contribute to it, I will be more than happy.
 Also, if you found a bug, please report it back to me.
 
 ## Changelog
+### 23.04.2022: v0.1.0
+- Fixed Dark Color Bugs.
+- changed new elements to dark color.
+- Added PopUp Menu to the Extension with Important Information
+- Extension is now Open-Source and Free to Use/Modify  
 ### 14.04.2022: v0.0.1
 - Released the extension.
