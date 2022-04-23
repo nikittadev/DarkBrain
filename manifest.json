@@ -16,6 +16,7 @@
   ],
   "browser_action": {
     "default_title": "DarkBrain",
+    "default_popup": "darkbrain.html",
     "default_icon":"darklogo.png"
   },
 

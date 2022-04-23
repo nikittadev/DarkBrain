@@ -26,7 +26,7 @@ b, strong{color:#fff;}
 .DefaultElement__paragraph--1Rxk9{color:#fff;}
 .sg-icon:active{background-color: #000!important;}
 .sg-icon--icon-black{color:#fff;}
-.sg-icon--adaptive{color:#fff!important;}
+.sg-icon--adaptive,.sg-select--selected .sg-select__element, .sg-select--valid .sg-select__element, .sg-select--invalid .sg-select__element{color:#fff!important;}
 .GameBoxStatItem-module__label--SsXVy{background-color: #000!important;}
 .sg-label--yellow-20{background-color: #000!important;}
 .sg-header__container{background-color: #000!important;}
@@ -37,7 +37,7 @@ b, strong{color:#fff;}
 ::-webkit-scrollbar-thumb {background: #fff!important; }
 ::-webkit-scrollbar-thumb:hover{background: #fff!important; }
 .sg-bubble--white{background-color: #000!important;}
-.sg-input,.sg-counter--with-icon,.brn-header-placeholder{background-color: #000!important;}
+.sg-input,.sg-counter--with-icon,.brn-header-placeholder,.sg-select__element{background-color: #000!important;}
 .GameBoxProgressBar-module__container--3ukwx{visibility: hidden;}
 .LookingForMoreBanner-module__banner--3di25{    background-color: #000;}
 .sg-button--outline{color: #fff!important;}
@@ -47,3 +47,5 @@ b, strong{color:#fff;}
 .AnswerBoxLayout-module__box--2yed7{background-color: #000!important;}
 .GameBoxLink-module__container--IS_la:hover{background-color: #000!important;}
 .sg-textarea{background-color: #000!important;}
+.sg-button--solid-inverted{background-color: #ffffff0d; color: #fff;}
+.brn-challenges-tracking__bar{background-color: #ffffff1a;}

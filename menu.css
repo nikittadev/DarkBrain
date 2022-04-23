@@ -1,0 +1,83 @@
+:root{
+    --color-dark:hsl(0, 0%, 0%);
+    --color-white:hsl(0, 0%, 100%);
+    --border:2px solid hsl(227, 100%, 50%); 
+    --border-color:hsl(227, 100%, 50%); 
+    --radius:20px;
+    --menu-width:200px;
+    --menu-height:200px;
+    --default-align:center;
+    --font-weight:300;
+    --h1:1.9em;
+    --p:1.4em;
+}
+body {
+    width: var(--menu-width);
+    height: var(--menu-height);
+    background: var(--color-dark);
+    color:var(--color-white);
+    list-style: square;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: var(--default-align);
+    font-weight: var(--font-weight);
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+     -ms-animation: fadein 1s; /* Internet Explorer */
+      -o-animation: fadein 1s; /* Opera < 12.1 */
+         animation: fadein 1s;
+}
+::marker {
+    visibility: none;
+    color: transparent;
+}
+@keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+p,li {
+    font-size: var(--p);
+}
+a {
+    margin-left: -38px;
+    text-decoration: none;
+    color: var(--color-white);
+}
+h1 {
+    font-size: var(--h1);
+}
+.button {
+     width: 6.7em;
+    height: 2.6em;
+    border: var(--border);
+    border-radius:var(--radius);
+    background: var(--border-color);
+    color: var(--color-white)
+}
+button:hover{
+    background-color: hsla(227, 100%, 50%, 0.384); 
+}
